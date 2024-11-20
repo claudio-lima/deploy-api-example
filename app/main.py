@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 from fastapi import FastAPI
 import polars as pl
 from sentence_transformers import SentenceTransformer
@@ -39,7 +38,6 @@ def search(query: str):
     idx_result = returnSearchResultIndexes(query, df, model, dist)
     return df.select(['title', 'video_id']).collect()[idx_result].to_dict(as_series=False)
 
-=======
 from fastapi import FastAPI
 import polars as pl
 from sentence_transformers import SentenceTransformer
@@ -80,4 +78,3 @@ def search(query: str):
     idx_result = returnSearchResultIndexes(query, df, model, dist)
     return df.select(['title', 'video_id']).collect()[idx_result].to_dict(as_series=False)
 
->>>>>>> 214a06d (First commit)
