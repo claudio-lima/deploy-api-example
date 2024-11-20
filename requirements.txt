@@ -1,0 +1,12 @@
+<<<<<<< HEAD
+fastapi==0.111.0
+polars==0.20.21
+sentence-transformers==2.6.1
+scikit-learn==1.2.2
+=======
+fastapi==0.111.0
+polars==0.20.21
+sentence-transformers==2.6.1
+scikit-learn==1.2.2
+>>>>>>> 214a06d (First commit)
+numpy==1.26.4
