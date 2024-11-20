@@ -1,3 +1,5 @@
+# https://towardsdatascience.com/how-to-deploy-ml-solutions-with-fastapi-docker-and-gcp-de1bb8bfc59a
+
 from fastapi import FastAPI
 import polars as pl
 from sentence_transformers import SentenceTransformer
